@@ -76,14 +76,17 @@ class _WeatherScreenState extends State<WeatherScreen> {
               const SizedBox(height: 20.0),
               Text(
                 cityName,
+                style: const TextStyle(fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 20.0),
               Text(
                 temperature,
+                style: const TextStyle(fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 20.0),
               Text(
                 weather,
+                style: const TextStyle(fontWeight: FontWeight.bold),
               )
             ],
           )),
